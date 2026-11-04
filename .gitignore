@@ -25,3 +25,9 @@ desktop.ini
 # Environment variables and secrets
 .env
 .env.*
+
+# KiCad temporary files and local history
+.history/
+*.kicad_prl
+*-backups/
+*.lck
