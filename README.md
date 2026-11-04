@@ -68,6 +68,15 @@ Smart Stepper Motor Control/
 ├── .gitignore
 └── README.md
 ```
+## Electrical Schematic
+
+The electrical schematic was designed using **KiCad** and checked using the Electrical Rules Checker (ERC), with 0 errors and 0 warnings.
+
+The schematic documents the Arduino UNO R3, ULN2003A motor driver, 28BYJ-48 stepper motor connector, LCD1602 display, potentiometer, and push-button controls.
+
+**Documentation:**
+- [View Electrical Schematic (PDF)](docs/Smart_Stepper_Motor_Schematic.pdf)
+- [View KiCad Project](docs/Smart_Stepper_Motor_Schematic/)
 
 ## Installation
 
