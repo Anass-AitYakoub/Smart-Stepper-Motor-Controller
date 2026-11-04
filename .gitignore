@@ -1,0 +1,27 @@
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Python virtual environments
+.venv/
+venv/
+
+# Generated CSV data
+motor_data_*.csv
+
+# Temporary files
+*.tmp
+*.log
+
+# VS Code local settings
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Environment variables and secrets
+.env
+.env.*
