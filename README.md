@@ -78,6 +78,26 @@ The schematic documents the Arduino UNO R3, ULN2003A motor driver, 28BYJ-48 step
 - [View Electrical Schematic (PDF)](docs/Smart_Stepper_Motor_Schematic.pdf)
 - [View KiCad Project](docs/Smart_Stepper_Motor_Schematic/)
 
+## Hardware Prototype
+
+The prototype was assembled using an Arduino UNO R3, a 28BYJ-48 stepper motor, a ULN2003 driver module, an LCD1602 display, three push buttons, and a potentiometer.
+
+## Hardware Prototype
+
+The prototype was assembled using an Arduino UNO R3, a 28BYJ-48 stepper motor, a ULN2003 driver module, an LCD1602 display, three push buttons, and a potentiometer.
+
+### Complete Hardware Setup
+
+![Smart Stepper Motor Controller](docs/images/hardware-overview.jpeg)
+
+### Circuit Details
+
+![Breadboard and LCD Wiring](docs/images/hardware-closeup.jpeg)
+
+### Additional View
+
+![Hardware Prototype Side View](docs/images/hardware-angle.jpeg)
+
 ## Installation
 
 1. Clone or download this repository.
