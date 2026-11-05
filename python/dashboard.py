@@ -152,7 +152,7 @@ def connect_arduino():
     global arduino
 
     try:
-        arduino = serial.Serial(PORT, BAUD_RATE, timeout=0)
+        arduino = serial.Serial(PORT, BAUD_RATE, timeout=0.05)
         connection_label.config(text=f"Connexion : {PORT} connecté")
         log(f"Arduino connecté sur {PORT}.")
         root.after(100, read_serial)

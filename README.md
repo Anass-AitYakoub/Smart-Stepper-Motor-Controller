@@ -98,6 +98,18 @@ The prototype was assembled using an Arduino UNO R3, a 28BYJ-48 stepper motor, a
 
 ![Hardware Prototype Side View](docs/images/hardware-angle.jpeg)
 
+## Python Dashboard
+
+A Python-based graphical interface was developed using Tkinter and PySerial to monitor the stepper motor in real time.
+
+The dashboard displays the operating mode, commanded motor speed (RPM), and direction received from the Arduino through serial communication.
+
+It also supports CSV data logging for recording motor operating data.
+
+### Dashboard Preview
+
+![Python Dashboard](docs/images/python-dashboard.png)
+
 ## Installation
 
 1. Clone or download this repository.
